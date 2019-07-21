@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>413058584288-k2hoa2jtslldaao3avdjntpff0ojs735.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.413058584288-k2hoa2jtslldaao3avdjntpff0ojs735</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMQ4rdFUoht4DPiWdNU5rKVmVEl3Ve5mU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>413058584288</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>test.ToBetOrNot</string>
+	<key>PROJECT_ID</key>
+	<string>tobetornot-52189</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tobetornot-52189.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:413058584288:ios:8e4f00c72de03e2b</string>
+	<key>DATABASE_URL</key>
+	<string>https://tobetornot-52189.firebaseio.com</string>
+</dict>
+</plist>

@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import Firebase
+import FBSDKCoreKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +19,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+        // 初始化Firebaseㄩ使用Facebook登入的程式碼
+        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
         return true
+    }
+    
+    // 實作當Facebook完成驗證工作後，將畫面倒會程式的
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        let handled = ApplicationDelegate.shared.application(app, open: url, options: options)
+        return handled
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
